@@ -60,19 +60,30 @@ Esta URL se utiliza en cada caso de prueba cypres, al obtener el response del ap
 El presente repositorio contiene un proyecto Cypress, en su interior puede ubicarse las siguientes carpetas:
 
 
-# Instrucciones de instalación.
-Cada carpeta contiene los escenarios implementados de acuerdo a la estrategia de pruebas señalada en su carpeta contenedora.  Para configura el proyecto en ambiente de instalación, siga el siguiente procedimiento:
 
-1. A través de una consola, genere una carpeta para descargar el proyecto.
-2. Ingrese a la carpeta creada, clone el repositorioa través del  comando "git clone ".
-3. Ingrese con una consola a la carpeta "".
-4. Ejecute el comando "npm install cypress"
-5. Ejecute el comando "npm install faker"
-6. Ejecute el comando "./node_modules/.bin/cypress open"
-7. El comando anterior desplegará la consolta de Cypress y en su interior, cada uno de los casos de prueba generados.
-8. Ingrese a la carpeta "" y ejecute cualquiera de los archivos desplegados.
-9. Ingrese a la carpeta "" y ejecute cualquiera de los archivos desplegados.
-10. Ingrese a la carpeta "" y ejecute cualquiera de los archivos desplegados.
+
+# Instrucciones de instalación.
+1. Instalar la versión 3.42.5 de ghost.  En el siguiente enlace podrá encontrar un tutorial que servirá de guía: https://www.coursera.org/learn/pruebas-automatizadas-software/supplement/gjD9z/como-desplegar-ghost-de-forma-local
+2. Inicie ghost. Desde el sitio del administrador cree el siguiente usuario:
+
+|Correo|Clave|
+|--|--|
+|m.leguizamong@uniandes.edu.co|123456789!|
+
+3. Instalar cypress. En el siguiente enlace podrá encontrar un tutorial que servirá de guía: https://misovirtual.virtual.uniandes.edu.co/codelabs/cypress-tutorial/index.html#1
+4. Descargue el repositorio del código en su máquina. Desde powershell ingrese el siguiente comando: git clone https://github.com/coandrade/TallerEstrategiaDatos.git
+5. Dentro de la ruta escogida para contener el código del paso anterior y desde powershell ubíquese en el siguiente directorio : Sistema-de-TSDC/Cypress/Pruebas_V3.4.25/
+6. Ejecute el comando cypress open. Le aparecerá una imagen como la siguiente: 
+![image](https://user-images.githubusercontent.com/78806424/118421599-0a06f380-b687-11eb-9b93-beceafadb1f4.png)
+7. Haga clic en cada enlace teniendo en cuenta el orden de numeración para ejecutar las pruebas. Al finlizar la ejecución verá una pantalla como la siguiente: 
+![image](https://user-images.githubusercontent.com/78806424/118431236-77248400-b69b-11eb-843c-57c5bd124db9.png)
+8. Cada carpeta contiene los escenarios implementados de acuerdo a la estrategia de pruebas señalada en su carpeta contenedora.  Para configura el proyecto en ambiente de instalación, siga el siguiente procedimiento:
+9. Ejecute el comando "npm install faker"
+10. Ejecute el comando "./node_modules/.bin/cypress open". 
+11. El comando anterior desplegará la consola de Cypress y en su interior, cada uno de los escenarios generados.
+12. Ingrese a la carpeta "a-priori" y ejecute cualquiera de los archivos desplegados.
+13. Ingrese a la carpeta "pseudo-aleatorio" y ejecute cualquiera de los archivos desplegados.
+14. Ingrese a la carpeta "" y ejecute cualquiera de los archivos desplegados.
 
 
 
