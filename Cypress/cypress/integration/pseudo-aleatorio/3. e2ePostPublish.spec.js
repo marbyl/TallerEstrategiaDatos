@@ -12,11 +12,11 @@ describe('Prueba escenarios ghost  - Post', () => {
 			config = _config;
 			//console.log(config)
 		})
-		/*cy.request('https://my.api.mockaroo.com/data.json?key=fae49f20')
+		cy.request('https://my.api.mockaroo.com/data.json?key=fae49f20')
 		.then((response) => {
 			cy.writeFile('cypress/fixtures/mockaroo.json', response.body)
 		})
-		*/
+		
 		cy.fixture('mockaroo').should((_mockaroo) => {
 			mockaroo = _mockaroo;
 			random = Math.floor(Math.random()*mockaroo.length); 
