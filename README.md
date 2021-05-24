@@ -54,14 +54,14 @@ Para la generación pseudo aleatoria de datos, se utilizó el generador de datos
 Esta URL se utiliza en cada caso de prueba cypres, al obtener el response del api su body lo guardo en un array. También se genera un numero aleatorio de la longitud del array y este numero se utiliza como posicion del array para obtener el valor.
 
 # (iii) escenario aleatorio.
-Para la generación aleatoria de datos, se utilizó la herramienta faker importando la librería en cada uno de los archivos donde se implementaron los 40 casos de pruebas mencionados.  De acuerdo a las entradas del escenario de prueba a validar, se hacía uso de los métodos expuestos por la librería faker: word, words, parrafo, parrafos, correo, etc.
+
 
 # Contenido del repositorio.
 El presente repositorio contiene un proyecto Cypress, en su interior puede ubicarse las siguientes carpetas:
 
 
 # Instrucciones de instalación.
-Cada carpeta contiene 40 casos de preueba implementados de acuerdo a la estrategia de pruebas señalada en su carpeta contenedora.  Para configura el proyecto en ambiente de instalación, siga el siguiente procedimiento:
+Cada carpeta contiene los escenarios implementados de acuerdo a la estrategia de pruebas señalada en su carpeta contenedora.  Para configura el proyecto en ambiente de instalación, siga el siguiente procedimiento:
 
 1. A través de una consola, genere una carpeta para descargar el proyecto.
 2. Ingrese a la carpeta creada, clone el repositorioa través del  comando "git clone ".
