@@ -49,7 +49,7 @@ Para la generación previa de datos, se utilizó el sitio https://www.mockaroo.c
  - MOCK_DATA_USUARIO.json
 
 # (ii) pool de datos (pseudo) aleatorio dinámico.
-Para la generación de datos se hizo uso de la herramienta Mockaroo y mediante un llamado a la API se obtienen los datos y posteriormente se almacenan en el archivos **fixtures/mockaroo.json** Para hacer esto posible se creó una cuenta en Mockaroo, se definió un Schema con diferentes campos y tipos de datos, además, se realizo la creación de la respectiva [API](https://my.api.mockaroo.com/data.json?key=fae49f20). Antes de iniciar la ejecución de los escenarios se lee el archivo mockaroo.json y se almacena en un array y cada vez que se ejecuta un escenario se genera un numero aleatorio de la longitud del array, el cual indica la posición de los datos que serán usados.
+Para la generación de datos se hizo uso de la herramienta [Mockaroo](https://www.mockaroo.com/) y mediante un llamado a la API se obtienen los datos y posteriormente se almacenan en el archivos **fixtures/mockaroo.json** Para hacer esto posible se creó una cuenta en Mockaroo, se definió un Schema con diferentes campos y tipos de datos, además, se realizo la creación de la respectiva [API](https://my.api.mockaroo.com/data.json?key=fae49f20). Antes de iniciar la ejecución de los escenarios se lee el archivo mockaroo.json y se almacena en un array y cada vez que se ejecuta un escenario se genera un numero aleatorio de la longitud del array, el cual indica la posición de los datos que serán usados.
 
 ![image](https://github.com/coandrade/TallerEstrategiaDatos/blob/main/Cypress/imagen/api.PNG)
 
@@ -61,6 +61,9 @@ Para la generación de datos se hizo uso de la herramienta Mockaroo y mediante u
 # Contenido del repositorio.
 El presente repositorio contiene un proyecto Cypress, en su interior puede ubicarse las siguientes carpetas:
 
+- /cypress/integration/a-priori
+- /cypress/integration/pseudo-aleatorio
+- /cypress/integration/pruebas-aleatorias
 
 
 
