@@ -37,7 +37,7 @@ A continuación, se detallan las estrategias utilizadas para la generación de d
 (i) pool de datos a-priori, (ii) pool de datos (pseudo) aleatorio dinámico y (iii) escenario aleatorio.
 
 # (i) pool de datos a-priori.
-Para la generación previa de datos, se utilizó el sitio https://www.mockaroo.com/ estableciendo una plantila de tipos de datos requeridos, posteriormente se generó un archivo json con 100 registros en total fueron 8 archivos y este fue ubicado dentro del proyecto cypress.  En cada caso de pruebas implementado, se importó el mencionado archivo haciedo uso aleatario de los registros allí encontrados.
+Para la generación previa de datos, se utilizó el sitio https://www.mockaroo.com/ estableciendo una plantilla de tipos de datos requeridos, posteriormente se generó un archivo json con 100 registros en total fueron 8 archivos y este fue ubicado dentro del proyecto cypress.  En cada caso de pruebas implementado, se importó el mencionado archivo haciendo uso aleatario de los registros allí encontrados.
 
  - MOCK_DATA_CLAVES.json
  - MOCK_DATA_EMAIL.json
