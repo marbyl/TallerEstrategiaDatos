@@ -61,8 +61,8 @@ Para la generación de datos se hizo uso de la herramienta [Mockaroo](https://ww
 # Contenido del repositorio.
 El presente repositorio contiene un proyecto Cypress,  puede ubicarse las siguientes carpetas en donde encontrara en su interior los scripts de los escenarios elaborados para cada estrategia:
 
-- /cypress/integration/a-priori
-- /cypress/integration/pseudo-aleatorio
+- [/cypress/integration/a-priori](https://github.com/coandrade/TallerEstrategiaDatos/tree/main/Cypress/cypress/integration/a-priori)
+- [/cypress/integration/pseudo-aleatorio](https://github.com/coandrade/TallerEstrategiaDatos/tree/main/Cypress/cypress/integration/pseudo-aleatorio)
 - /cypress/integration/pruebas-aleatorias
 
 
